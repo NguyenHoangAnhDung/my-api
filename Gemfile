@@ -9,6 +9,9 @@ end
 gem "rails", "~> 5.1.5"
 gem "puma", "~> 3.7"
 gem "faker"
+gem "devise_token_auth"
+gem "omniauth"
+gem "rack-cors", require: "rack/cors"
 
 group :test do
   gem "rspec-rails"
