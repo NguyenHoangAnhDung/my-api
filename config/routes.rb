@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       resources :items
     end
   end
+
+  root "api/v1/items#index"
 end
